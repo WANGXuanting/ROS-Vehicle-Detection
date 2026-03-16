@@ -1,0 +1,4 @@
+<launch>
+    <!-- 启动车辆检测节点 -->
+    <node pkg="vehicle_detector" type="detector_node.py" name="vehicle_detector_node" output="screen" />
+</launch>
